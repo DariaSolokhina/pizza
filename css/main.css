@@ -4,14 +4,14 @@
 }
 @font-face {
     font-family:"Gotham-Ultra";
-    src: url( "fonts/Gotham-UltraItalic.woff") format("woff");
+    src: url( "fonts/gotham-ultra.ttf") format("ttf");
     font-style: normal;
     font-weight: 100;
    }
 
 @font-face {
-    font-family:"GothamMedium";
-    src: url( "fonts/GothamMedium.woff") format("woff");
+    font-family:"Gotham-Medium";
+    src: url( "fonts/Gotham Medium.otf") format("otf");
     font-weight: 100;
     font-style: normal;
    }
@@ -43,7 +43,7 @@
 }
 
 .top__elem2 {
-    font-family: 'GothamMedium', sans-serif;
+    font-family: 'Gotham-Medium', sans-serif;
     font-weight: 100;
     font-style: normal;
     font-size: 25px;
