@@ -1,0 +1,127 @@
+
+.page {
+    margin: 0 auto;
+}
+@font-face {
+    font-family:"Gotham-Ultra";
+    src: url( "fonts/Gotham-UltraItalic.woff") format("woff");
+    font-style: normal;
+    font-weight: 100;
+   }
+
+@font-face {
+    font-family:"GothamMedium";
+    src: url( "fonts/GothamMedium.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+   }
+
+.top {
+    background-color: #000;
+    display: flex;
+}
+
+.header {
+    height: 84px;
+    min-width: 1455px;
+    background-color: #000;
+    display: flex;
+    margin: 0 auto;
+}
+
+.top__elem1 {
+    font-family: 'Gotham-Ultra', sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: normal;
+    color: #fff;
+    text-transform: uppercase;
+    justify-content: left;
+    flex-grow: 8;
+    align-self: center;
+    margin-left: 20px;
+}
+
+.top__elem2 {
+    font-family: 'GothamMedium', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 25px;
+    color: #fff;
+    flex-grow: 1;
+    align-self: center;
+    display: flex;
+    text-align: end;
+}
+
+.header__img {
+    height: 30px;
+    width: 88px;
+    align-self: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 1455px;
+    margin: 0 auto;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content__headline {
+    font-family: 'Gotham-Ultra', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 45px;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto 25px;
+    line-height: 1;
+}
+
+.content__explanation {
+    font-family: 'Gotham-Medium', sans-serif;
+    font-size: 25px;
+    color: #000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    max-width: 1195px;
+    margin: 40px auto 25px;
+}
+
+.content__img {
+    margin: 25px auto;
+}
+
+.type-1 {
+    max-width: 1195px;
+}
+
+.type-2 {
+    max-width: 972px;
+}
+
+.img-1 {
+    width: 272px;
+    height: 485px;
+    padding: 0;
+}
+
+.img-2 {
+    width: 437px;
+    height: 422px;
+    padding: 0;
+}
+
+.img-3 {
+    width: 347px;
+    height: 101px;
+    padding: 0;
+}
