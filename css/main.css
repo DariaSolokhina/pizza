@@ -11,9 +11,7 @@
 
 @font-face {
     font-family:"Gotham-Medium";
-    src: url( "fonts/Gotham Medium.otf") format("otf");
-    font-weight: 100;
-    font-style: normal;
+    src: url( "fonts/GothamMedium.woff") format("woff");
    }
 
 .top {
